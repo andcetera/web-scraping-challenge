@@ -56,7 +56,7 @@ Analyze your dataset by using Pandas functions to answer the following questions
 ## Deliverable 2 Analysis Results:
 
 **Question 1:**  
-In our dataset, the Martian year is broken up into 12 months, which are much longer than Earth months.  There are 22.57 Earth months in a Martian year.  
+In our dataset, the Martian year is broken up into 12 months, which are much longer than Earth months.  There are 22.57 Earth months (or 687 days) in a Martian year.  
 
 **Question 2:**  
 There are 1,977 Martian days worth of measurements in the dataset.  
@@ -77,7 +77,7 @@ The average atmospheric pressure on Mars is lowest in the sixth month and highes
 ![Daily_Temps](Images/daily_temps.png)  
 
 
-The distance from peak to peak is roughly 1480 - 795, or 685 sols.  A sol is very close to the same length as an Earth day, so we would expect this to be good for a rough estimate. A year on Mars appears to be about 685 days from the plot. An internet search confirms that a Mars year is equivalent to 687 Earth days.  
+The distance from peak to peak is roughly 1480 - 795, or 685 sols.  A sol is very close to the same length as an Earth day, so we would expect this to be good for a rough estimate. A year on Mars appears to be about 685 days from the plot. Our notebook calculations above confirm that a Mars year is equivalent to 687 Earth days.  
 
 - - - 
 ### References
