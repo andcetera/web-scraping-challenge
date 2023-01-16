@@ -56,7 +56,7 @@ Analyze your dataset by using Pandas functions to answer the following questions
 ## Deliverable 2 Analysis Results:
 
 **Question 1:**  
-In our dataset, the Martian year is broken up into 12 months, which are much longer than Earth months.  
+In our dataset, the Martian year is broken up into 12 months, which are much longer than Earth months.  There are 22.57 Earth months in a Martian year.  
 
 **Question 2:**  
 There are 1,977 Martian days worth of measurements in the dataset.  
