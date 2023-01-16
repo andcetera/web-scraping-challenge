@@ -1,7 +1,7 @@
 # Mars News and Weather Analysis
 Scraping Mars news &amp; weather data using Splinter and Beautiful Soup for statistical analysis using Python Pandas and Matplotlib
 - - -
-![Curiosity_selfie](Resources/curiosity.png)
+![Curiosity_selfie](Images/curiosity.png)
 
 Image Credit: NASA/JPL-Caltech/MSSS
 - - -
