@@ -24,16 +24,18 @@ Graphs generated from weather analysis can be found in the [Images](Images/) fol
 
 - - -
 ## Background
-This new assignment consists of two technical products. You will submit the following deliverables:
+This assignment consists of two technical products. You will submit the following deliverables:
 
-- **Deliverable 1:** A Jupyter notebook containing code that scrapes the Mars news titles and preview text and prints/stores them in the following format:
+### Deliverable 1:
+A Jupyter notebook containing code that scrapes the Mars news titles and preview text and prints/stores them in the following format:
 
 ```
 {'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm", 
  'preview': "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."}
  ```
  
-- **Deliverable 2:** A Jupyter notebook containing code that scrapes the Mars weather data and that cleans, visualizes, and analyzes that data.
+### Deliverable 2:
+A Jupyter notebook containing code that scrapes the Mars weather data and that cleans, visualizes, and analyzes that data.
 
 Analyze your dataset by using Pandas functions to answer the following questions:
 
@@ -51,18 +53,32 @@ Analyze your dataset by using Pandas functions to answer the following questions
 
 - - - 
 
-## Deliverable #2 Analysis Results:
+## Deliverable 2 Analysis Results:
 
-Here’s an explanation of the column headings:
+**Question 1:**  
+In our dataset, the Martian year is broken up into 12 months, which are much longer than Earth months.  
 
-    - `id`: the identification number of a single transmission from the Curiosity rover
-    - `terrestrial_date`: the date on Earth
-    - `sol`: the number of elapsed sols (Martian days) since Curiosity landed on Mars
-    - `ls`: the solar longitude
-    - `month`: the Martian month
-    - `min_temp`: the minimum temperature, in Celsius, of a single Martian day (sol)
-    - `pressure`: The atmospheric pressure at Curiosity's location
+**Question 2:**  
+There are 1,977 Martian days worth of measurements in the dataset.  
+
+**Question 3:**  
+![Average_Temp](Images/ave_temp.png)  
 
 
+On average, the third Martian month is the coldest, and the eighth month is the warmest, but the temperatures are always extremely cold in comparison to the temperatures we are used to on Earth!  
+
+**Question 4:**  
+![Average_Pressure](Images/ave_pssr.png) 
+
+
+The average atmospheric pressure on Mars is lowest in the sixth month and highest in the ninth.  
+
+**Question 5:**  
+![Daily_Temps](Images/daily_temps.png)  
+
+
+The distance from peak to peak is roughly 1480 - 795, or 685 sols.  A sol is very close to the same length as an Earth day, so we would expect this to be good for a rough estimate. A year on Mars appears to be about 685 days from the plot. An internet search confirms that a Mars year is equivalent to 687 Earth days.  
+
+- - - 
 ### References
 The [Mars News website](https://static.bc-edx.com/data/web/mars_news/index.html) is operated by edX Boot Camps LLC for educational purposes only. The news article titles, summaries, dates, and images were scraped from [NASA's Mars News](https://mars.nasa.gov/) website in November 2022. Images are used according to the [JPL Image Use Policy](https://www.jpl.nasa.gov/jpl-image-use-policy), courtesy NASA/JPL-Caltech.
